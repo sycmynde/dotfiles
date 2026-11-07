@@ -1,0 +1,18 @@
+# Secrets / keys — NEVER commit
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.secret
+.env
+.env.*
+*.token
+hosts.yml
+hosts.yaml
+
+# OS / editor junk
+.DS_Store
+*.swp
+*~
+.cache/
